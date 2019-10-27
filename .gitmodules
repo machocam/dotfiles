@@ -1,0 +1,6 @@
+[submodule "dotvim"]
+	path = dotvim
+	url = https://github.com/machocam/dotvim
+[submodule ".bash_profile"]
+	path = .bash_profile
+	url = https://github.com/machocam/.bash_profile
