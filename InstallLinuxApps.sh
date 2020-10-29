@@ -3,7 +3,7 @@
 
 ## From standard repos
 
-sudo apt install vlc snapd git curl keepassxc
+sudo apt install vlc snapd git curl keepassxc ssh
 
 ## Snap packages
 sudo snap install discord spotify signal-desktop 
