@@ -4,7 +4,7 @@
 
 ## From standard repos
 
-sudo apt install vlc snapd git curl keepassxc ssh syncthing fzf ripgrep newsboat
+sudo apt install vlc snapd git curl keepassxc ssh syncthing fzf ripgrep newsboathtop
 
 ## Snap packages
 sudo snap install discord spotify signal-desktop 
