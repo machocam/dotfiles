@@ -1,3 +1,4 @@
+
 # !/bin/bash
 # Run this to install apps that I like to have on any machine that I use
 
