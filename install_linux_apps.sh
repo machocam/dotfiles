@@ -4,10 +4,13 @@
 
 ## From standard repos
 
-sudo apt install vlc snapd git curl keepassxc ssh syncthing fzf ripgrep newsboathtop neovim pandoc pgp universal-ctags 
+sudo apt install vlc snapd git curl keepassxc ssh syncthing fzf ripgrep newsboathtop neovim pandoc pgp universal-ctags python3-pandas python3-pip
 
 ## Snap packages
 sudo snap install discord spotify signal-desktop 
+
+## From PIP
+pip install folium
 
 ## New repos
 ### telegram
