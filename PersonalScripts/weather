@@ -1,0 +1,3 @@
+#!/bin/bash
+# Documentation of wttr.in here https://github.com/chubin/wttr.in
+curl wttr.in/$1?mn2 

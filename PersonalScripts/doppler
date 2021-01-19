@@ -1,0 +1,4 @@
+#!/bin/sh 
+
+mpv --loop-file=inf "
+
