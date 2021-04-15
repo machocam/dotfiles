@@ -4,10 +4,10 @@
 
 ## From standard repos
 
-sudo apt install vlc snapd git curl keepassxc ssh syncthing fzf ripgrep newsboathtop neovim pandoc pgp universal-ctags python3-pandas python3-pip
+sudo apt install vlc snapd git curl keepassxc ssh syncthing fzf ripgrep newsboathtop neovim pandoc pgp universal-ctags python3-pandas python3-pip cups cups-bsd cups-pdf
 
 ## Snap packages
-sudo snap install discord spotify signal-desktop 
+sudo snap install spotify signal-desktop 
 
 ## From PIP
 pip install folium
@@ -25,6 +25,11 @@ sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams
  
 sudo apt update
 sudo apt install teams
+
+### Syncthing
+echo "deb https://apt.syncthing.net/ syncthing stable" | sudo tee /etc/apt/sources.list.d/syncthing.list
+curl -s https://syncthing.net/release-key.txt | sudo apt-key add -
+sudo apt update && sudo apt install syncthing
 
 # Cleanup
 sudo apt autoremove  
