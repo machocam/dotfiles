@@ -4,7 +4,7 @@
 
 ## From standard repos
 
-sudo apt install vlc snapd git curl keepassxc ssh syncthing fzf ripgrep newsboathtop neovim pandoc pgp universal-ctags python3-pandas python3-pip cups cups-bsd cups-pdf
+sudo apt install vlc snapd git curl keepassxc ssh syncthing fzf ripgrep newsboathtop neovim pandoc pgp universal-ctags python3-pandas python3-pip cups cups-bsd cups-pdf aria2 
 
 ## Snap packages
 sudo snap install spotify signal-desktop 

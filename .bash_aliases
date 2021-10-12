@@ -17,4 +17,13 @@ alias vim='nvim'
 alias editjournal='date_name=$(date +%F) && note_name="${date_name}_five_minute_journal.md" && nvim ~/dox/vitz/notes/$note_name'
 
 # Update, upgrade and cleanup packages with apt
-alias updateme = 'sudo apt update && sudo apt upgrade && sudo apt autoremove' 
+alias updateme='sudo apt update && sudo apt upgrade && sudo apt autoremove' 
+
+# Python3 still needs to be explicitly indicated. Making it default. 
+alias python='python3'
+
+# Pring my ip address
+alias myip="echo $(ifconfig | grep broadcast | awk '{print $2}')"
+
+# Push OBTF file to gitlab 
+alias stodo="cd /home/mixcocam/dox/vitz/notes/templates/rodrigo_todo/ && git add . && git commit -m 'update' && git push"
